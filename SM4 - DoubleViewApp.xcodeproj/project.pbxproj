@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65C635B292D44C80036F13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C635A292D44C80036F13E /* AppDelegate.m */; };
+		F65C635E292D44C80036F13E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C635D292D44C80036F13E /* SceneDelegate.m */; };
+		F65C6361292D44C80036F13E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C6360292D44C80036F13E /* ViewController.m */; };
+		F65C6364292D44C80036F13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65C6362292D44C80036F13E /* Main.storyboard */; };
+		F65C6366292D44C90036F13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65C6365292D44C90036F13E /* Assets.xcassets */; };
+		F65C6369292D44C90036F13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65C6367292D44C90036F13E /* LaunchScreen.storyboard */; };
+		F65C636C292D44C90036F13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C636B292D44C90036F13E /* main.m */; };
+		F65C6376292D44CA0036F13E /* SM4___DoubleViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C6375292D44CA0036F13E /* SM4___DoubleViewAppTests.m */; };
+		F65C6380292D44CA0036F13E /* SM4___DoubleViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C637F292D44CA0036F13E /* SM4___DoubleViewAppUITests.m */; };
+		F65C6382292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C6381292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F65C6372292D44CA0036F13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F65C634E292D44C80036F13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65C6355292D44C80036F13E;
+			remoteInfo = "SM4 - DoubleViewApp";
+		};
+		F65C637C292D44CA0036F13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F65C634E292D44C80036F13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65C6355292D44C80036F13E;
+			remoteInfo = "SM4 - DoubleViewApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F65C6356292D44C80036F13E /* SM4 - DoubleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SM4 - DoubleViewApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65C6359292D44C80036F13E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F65C635A292D44C80036F13E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F65C635C292D44C80036F13E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F65C635D292D44C80036F13E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F65C635F292D44C80036F13E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F65C6360292D44C80036F13E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F65C6363292D44C80036F13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F65C6365292D44C90036F13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F65C6368292D44C90036F13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F65C636A292D44C90036F13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65C636B292D44C90036F13E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65C6371292D44CA0036F13E /* SM4 - DoubleViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM4 - DoubleViewAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65C6375292D44CA0036F13E /* SM4___DoubleViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM4___DoubleViewAppTests.m"; sourceTree = "<group>"; };
+		F65C637B292D44CA0036F13E /* SM4 - DoubleViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM4 - DoubleViewAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65C637F292D44CA0036F13E /* SM4___DoubleViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM4___DoubleViewAppUITests.m"; sourceTree = "<group>"; };
+		F65C6381292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM4___DoubleViewAppUITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65C6353292D44C80036F13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C636E292D44CA0036F13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C6378292D44CA0036F13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65C634D292D44C80036F13E = {
+			isa = PBXGroup;
+			children = (
+				F65C6358292D44C80036F13E /* SM4 - DoubleViewApp */,
+				F65C6374292D44CA0036F13E /* SM4 - DoubleViewAppTests */,
+				F65C637E292D44CA0036F13E /* SM4 - DoubleViewAppUITests */,
+				F65C6357292D44C80036F13E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65C6357292D44C80036F13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65C6356292D44C80036F13E /* SM4 - DoubleViewApp.app */,
+				F65C6371292D44CA0036F13E /* SM4 - DoubleViewAppTests.xctest */,
+				F65C637B292D44CA0036F13E /* SM4 - DoubleViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65C6358292D44C80036F13E /* SM4 - DoubleViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				F65C6359292D44C80036F13E /* AppDelegate.h */,
+				F65C635A292D44C80036F13E /* AppDelegate.m */,
+				F65C635C292D44C80036F13E /* SceneDelegate.h */,
+				F65C635D292D44C80036F13E /* SceneDelegate.m */,
+				F65C635F292D44C80036F13E /* ViewController.h */,
+				F65C6360292D44C80036F13E /* ViewController.m */,
+				F65C6362292D44C80036F13E /* Main.storyboard */,
+				F65C6365292D44C90036F13E /* Assets.xcassets */,
+				F65C6367292D44C90036F13E /* LaunchScreen.storyboard */,
+				F65C636A292D44C90036F13E /* Info.plist */,
+				F65C636B292D44C90036F13E /* main.m */,
+			);
+			path = "SM4 - DoubleViewApp";
+			sourceTree = "<group>";
+		};
+		F65C6374292D44CA0036F13E /* SM4 - DoubleViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F65C6375292D44CA0036F13E /* SM4___DoubleViewAppTests.m */,
+			);
+			path = "SM4 - DoubleViewAppTests";
+			sourceTree = "<group>";
+		};
+		F65C637E292D44CA0036F13E /* SM4 - DoubleViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F65C637F292D44CA0036F13E /* SM4___DoubleViewAppUITests.m */,
+				F65C6381292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m */,
+			);
+			path = "SM4 - DoubleViewAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65C6355292D44C80036F13E /* SM4 - DoubleViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65C6385292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewApp" */;
+			buildPhases = (
+				F65C6352292D44C80036F13E /* Sources */,
+				F65C6353292D44C80036F13E /* Frameworks */,
+				F65C6354292D44C80036F13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SM4 - DoubleViewApp";
+			productName = "SM4 - DoubleViewApp";
+			productReference = F65C6356292D44C80036F13E /* SM4 - DoubleViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F65C6370292D44CA0036F13E /* SM4 - DoubleViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65C6388292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewAppTests" */;
+			buildPhases = (
+				F65C636D292D44CA0036F13E /* Sources */,
+				F65C636E292D44CA0036F13E /* Frameworks */,
+				F65C636F292D44CA0036F13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65C6373292D44CA0036F13E /* PBXTargetDependency */,
+			);
+			name = "SM4 - DoubleViewAppTests";
+			productName = "SM4 - DoubleViewAppTests";
+			productReference = F65C6371292D44CA0036F13E /* SM4 - DoubleViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F65C637A292D44CA0036F13E /* SM4 - DoubleViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65C638B292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewAppUITests" */;
+			buildPhases = (
+				F65C6377292D44CA0036F13E /* Sources */,
+				F65C6378292D44CA0036F13E /* Frameworks */,
+				F65C6379292D44CA0036F13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65C637D292D44CA0036F13E /* PBXTargetDependency */,
+			);
+			name = "SM4 - DoubleViewAppUITests";
+			productName = "SM4 - DoubleViewAppUITests";
+			productReference = F65C637B292D44CA0036F13E /* SM4 - DoubleViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65C634E292D44C80036F13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F65C6355292D44C80036F13E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F65C6370292D44CA0036F13E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F65C6355292D44C80036F13E;
+					};
+					F65C637A292D44CA0036F13E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F65C6355292D44C80036F13E;
+					};
+				};
+			};
+			buildConfigurationList = F65C6351292D44C80036F13E /* Build configuration list for PBXProject "SM4 - DoubleViewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F65C634D292D44C80036F13E;
+			productRefGroup = F65C6357292D44C80036F13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65C6355292D44C80036F13E /* SM4 - DoubleViewApp */,
+				F65C6370292D44CA0036F13E /* SM4 - DoubleViewAppTests */,
+				F65C637A292D44CA0036F13E /* SM4 - DoubleViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65C6354292D44C80036F13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65C6369292D44C90036F13E /* LaunchScreen.storyboard in Resources */,
+				F65C6366292D44C90036F13E /* Assets.xcassets in Resources */,
+				F65C6364292D44C80036F13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C636F292D44CA0036F13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C6379292D44CA0036F13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65C6352292D44C80036F13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65C6361292D44C80036F13E /* ViewController.m in Sources */,
+				F65C635B292D44C80036F13E /* AppDelegate.m in Sources */,
+				F65C636C292D44C90036F13E /* main.m in Sources */,
+				F65C635E292D44C80036F13E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C636D292D44CA0036F13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65C6376292D44CA0036F13E /* SM4___DoubleViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C6377292D44CA0036F13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65C6380292D44CA0036F13E /* SM4___DoubleViewAppUITests.m in Sources */,
+				F65C6382292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F65C6373292D44CA0036F13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F65C6355292D44C80036F13E /* SM4 - DoubleViewApp */;
+			targetProxy = F65C6372292D44CA0036F13E /* PBXContainerItemProxy */;
+		};
+		F65C637D292D44CA0036F13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F65C6355292D44C80036F13E /* SM4 - DoubleViewApp */;
+			targetProxy = F65C637C292D44CA0036F13E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F65C6362292D44C80036F13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65C6363292D44C80036F13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F65C6367292D44C90036F13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65C6368292D44C90036F13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F65C6383292D44CA0036F13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F65C6384292D44CA0036F13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65C6386292D44CA0036F13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM4 - DoubleViewApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F65C6387292D44CA0036F13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM4 - DoubleViewApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F65C6389292D44CA0036F13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM4 - DoubleViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM4 - DoubleViewApp";
+			};
+			name = Debug;
+		};
+		F65C638A292D44CA0036F13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM4 - DoubleViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM4 - DoubleViewApp";
+			};
+			name = Release;
+		};
+		F65C638C292D44CA0036F13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM4 - DoubleViewApp";
+			};
+			name = Debug;
+		};
+		F65C638D292D44CA0036F13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM4---DoubleViewAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM4 - DoubleViewApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65C6351292D44C80036F13E /* Build configuration list for PBXProject "SM4 - DoubleViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65C6383292D44CA0036F13E /* Debug */,
+				F65C6384292D44CA0036F13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65C6385292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65C6386292D44CA0036F13E /* Debug */,
+				F65C6387292D44CA0036F13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65C6388292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65C6389292D44CA0036F13E /* Debug */,
+				F65C638A292D44CA0036F13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65C638B292D44CA0036F13E /* Build configuration list for PBXNativeTarget "SM4 - DoubleViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65C638C292D44CA0036F13E /* Debug */,
+				F65C638D292D44CA0036F13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65C634E292D44C80036F13E /* Project object */;
+}
