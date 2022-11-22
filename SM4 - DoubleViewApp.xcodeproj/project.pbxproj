@@ -17,6 +17,7 @@
 		F65C6376292D44CA0036F13E /* SM4___DoubleViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C6375292D44CA0036F13E /* SM4___DoubleViewAppTests.m */; };
 		F65C6380292D44CA0036F13E /* SM4___DoubleViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C637F292D44CA0036F13E /* SM4___DoubleViewAppUITests.m */; };
 		F65C6382292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C6381292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m */; };
+		F6FDD500292D7C8A00DD56B9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FDD4FF292D7C8A00DD56B9 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F65C637B292D44CA0036F13E /* SM4 - DoubleViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM4 - DoubleViewAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65C637F292D44CA0036F13E /* SM4___DoubleViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM4___DoubleViewAppUITests.m"; sourceTree = "<group>"; };
 		F65C6381292D44CA0036F13E /* SM4___DoubleViewAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM4___DoubleViewAppUITestsLaunchTests.m"; sourceTree = "<group>"; };
+		F6FDD4FE292D7C8A00DD56B9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F6FDD4FF292D7C8A00DD56B9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F65C6367292D44C90036F13E /* LaunchScreen.storyboard */,
 				F65C636A292D44C90036F13E /* Info.plist */,
 				F65C636B292D44C90036F13E /* main.m */,
+				F6FDD4FE292D7C8A00DD56B9 /* SecondViewController.h */,
+				F6FDD4FF292D7C8A00DD56B9 /* SecondViewController.m */,
 			);
 			path = "SM4 - DoubleViewApp";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FDD500292D7C8A00DD56B9 /* SecondViewController.m in Sources */,
 				F65C6361292D44C80036F13E /* ViewController.m in Sources */,
 				F65C635B292D44C80036F13E /* AppDelegate.m in Sources */,
 				F65C636C292D44C90036F13E /* main.m in Sources */,
